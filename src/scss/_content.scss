@@ -1,0 +1,35 @@
+.content {
+  > * {
+    padding-left: 30px;
+  }
+
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color: $primary-color;
+
+  p {
+    width: 55%;
+    min-width: 550px;
+  }
+
+  p, ul, ol, dl {
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+  }
+
+  img, video {
+    height: 350px;
+    width: 550px;
+    margin-bottom: 30px;
+  }
+
+  a:link, a:visited {
+    color: $secondary-color;
+  }
+
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+}
